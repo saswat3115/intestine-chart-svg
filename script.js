@@ -37,4 +37,11 @@ window.onload = function () {
   document
     .getElementById('arc2')
     .setAttribute('d', describeArc(150, 150, 100, 0, 200));
+
+  document
+    .getElementById('arc3')
+    .setAttribute('d', describeArc(150, 150, 75, 0, 270));
+  document
+    .getElementById('arc4')
+    .setAttribute('d', describeArc(150, 150, 75, 0, 180));
 };
